@@ -1,2 +1,3 @@
 # pyworking
-pyWorking projects
+pyWorking projects:
+  1. PyCharm
