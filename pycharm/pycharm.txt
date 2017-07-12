@@ -1,0 +1,31 @@
+1. IDE vs. IDLE vs. txt editor + terminal (options how to write/ execute code)
+    - IDE (Integrated Development Environment )- Visual Studio Code, PyCharm, Eclipse, Netbeans (https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
+    - IDLE - (https://en.wikipedia.org/wiki/IDLE , https://www.quora.com/What-is-the-difference-between-IDE-and-IDLE)
+    - txt editors - Atom, Sublime, Vim (https://wiki.python.org/moin/PythonEditors)
+    * couple notes + pics + differences about each option
+
+2. Why to use IDE
+
+
+PYCHARM
+
+1. About
+    - 3 versions: EDU Edition (for free, contains some simple python tutorials, it has the least functions),
+                  Community Edition (for free, it has enough function for most developers),
+                  Professional edition (paid, server integration...)
+    - https://en.wikipedia.org/wiki/PyCharm
+
+2. Installation - You can download it directly from their site but it is better to go through Jetbrain Toolbox (https://www.jetbrains.com/toolbox/app/) as it offers
+                  more options from all jetbrains apps and you get updates automatically, also you can use several versions of the product which you have in one place
+                  same al all your projects, https://chrome.google.com/webstore/detail/jetbrains-toolbox-extensi/offnedcbhjldheanlbojaefbfbllddna google chrome extension for Github
+    1. macOS, Linux, Windows
+
+        - Go to https://www.jetbrains.com/toolbox/app/ , click on download .DMG file, when downloaded click on the downloaded file and move the PyCharm icon to Aplications
+
+
+
+    2. Linux
+        - Go to https://www.jetbrains.com/toolbox/app/
+
+    3. Windows
+        - Go to https://www.jetbrains.com/toolbox/app/
