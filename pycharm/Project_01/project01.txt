@@ -1,0 +1,29 @@
+Settings & New Project
+
+1. Settings
+Great installation is done and now we have to go through some basic settings. In PyCharm you have 2 kinds of settings -
+global settings (all projects) and project settings (apply only for the specific project). "Configure" on this welcome
+page are global settings. Choose "Preferences" and type "project interpreter" in the search box. On the right side click
+on the drop down menu and choose your default interpreter for all your projects from now on (for all your existing
+projects you have to set the interpreter manually in project settings). Click on "Apply" and then "OK".
+NOTE: If you update version of Python, don't forget to update also the settings in PyCharm.
+
+2. New project
+- You are back on the welcome page. Click on "Create New Project", choose "Location" where you want your projects will
+  be saved (PyCharm automatically created a directory "PyCharms Projects" but you can choose your own destination and
+  delete this directory). As you can see "Interpreter" is set already as the one we set before in global settings.
+  Nothing much to do here, so click "Create".
+- For each project we need virtualenv. Go to "File" in top menu, "Default Settings", type "project interpreter" and on
+  the right side, next to the box with your interpreter is sprocket (settings icon), choose "Create VirtualEnv" and then
+  write "Name" and "Location" (has to be same directory as your project), click "OK". Now you see that only pip and
+  setuptools are installed. To install more modules use terminal and "pip install ..." or you can click the plus icon
+  on the bottom, choose package for installation, click "Install" and close window. When you are done, click "Apply" and
+  "OK", it will return you back to your project.
+- Now we need to create a python file to write some code in. In the bar menu choose "File" > "New" > "Python File"
+  and fill the "Name" (without .py) in, click "OK".
+- Type some code in file.
+- On the bottom of the IDE click on "Terminal" and run your code.
+- On the left side you see tab "Project" in which you are right now and you see everything what your project contains.
+  First is project it self and all its files, then you can click on "External Libraries" and see what interpreter is
+  default and what packages are installed.
+
