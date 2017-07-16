@@ -1,0 +1,9 @@
+PyCharm
+
+Installation - macOS, Linux, Windows
+Project_01 - Settings & New Project
+Project_02 - Python version update
+Project_03 - Keyboard shortcuts
+Project_04 - Debugging
+Project_05 - Refactoring
+Project_06 - Interface description

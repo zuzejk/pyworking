@@ -1,0 +1,4 @@
+Python version update
+
+1. File > Default Settings > Project Interpreter > sprocket > Add Local > find out the location of the updated python version
+2. Then for every project you want to work with the updated python
