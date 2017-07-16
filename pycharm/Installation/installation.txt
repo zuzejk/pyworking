@@ -1,3 +1,5 @@
+About & Installation
+
 1. IDE vs. IDLE vs. txt editor + terminal (options how to write/ execute code)
     - IDE (Integrated Development Environment )- Visual Studio Code, PyCharm, Eclipse, Netbeans (https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
     - IDLE - (https://en.wikipedia.org/wiki/IDLE , https://www.quora.com/What-is-the-difference-between-IDE-and-IDLE)
