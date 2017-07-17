@@ -1,7 +1,7 @@
 Settings & New Project
 
 1. Settings
-Great installation is done and now we have to go through some basic settings. In PyCharm you have 2 kinds of settings -
+Great, installation is done and now we have to go through some basic settings. In PyCharm you have 2 kinds of settings -
 global settings (all projects) and project settings (apply only for the specific project). "Configure" on this welcome
 page are global settings. Choose "Preferences" and type "project interpreter" in the search box. On the right side click
 on the drop down menu and choose your default interpreter for all your projects from now on (for all your existing
