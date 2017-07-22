@@ -28,7 +28,16 @@ PYCHARM
           with IDE color settings will pop up. This is totally up to you, you can also skip it and set it later.
 
     2. Linux
-        - Go to https://www.jetbrains.com/toolbox/app/
+      - Written and tested on Ubuntu 16.04 LTS Desktop
+      - Go to https://www.jetbrains.com/toolbox/download/download-thanks.html?platform=linux and download the package
+        (let's assume the package name is jetbrains-toolbox-1.4.2492.tar.gz)
+      - Extract the package by running `tar -xzf jetbrains-toolbox-1.4.2492.tar.gz`
+      - Open the extracted package by running `cd jetbrains-toolbox-1.4.2492`
+      - Run the toolbox by running `./jetbrains-toolbox`
+      - Carefully read the license and click "Accept" (ubuntu_a.png)
+      - Click "Skip" (unless you are already registered or would like to register with JetBrains) (ubuntu_b.png)
+      - Find the "PyCharm Community" item and click "Install" (ubuntu_c.png, ubuntu_d.png, ubuntu_e.png)
+      - To run PyCharm, click on "PyCharm Community" (ubuntu_f.png)
 
     3. Windows
         - Go to https://www.jetbrains.com/toolbox/app/
