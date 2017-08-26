@@ -2,27 +2,51 @@ Settings & New Project
 
 1. Settings
 Great, installation is done and now we have to go through some basic settings. In PyCharm you have 2 kinds of settings -
-global settings (all projects) and project settings (apply only for the specific project). "Configure" on this welcome
-page are global settings. Choose "Preferences" and type "project interpreter" in the search box. On the right side click
-on the drop down menu and choose your default interpreter for all your projects from now on (for all your existing
-projects you have to set the interpreter manually in project settings). Click on "Apply" and then "OK".
+default settings ("File" > "Default Settings" = global settings) and project settings ("PyCharm Community Edition" >
+"Preferences" = apply only for the specific project). "Configure" on this welcome page are default settings. Choose
+"Preferences" and type "project interpreter" in the search box. On the right side click on the drop down menu and
+choose your default interpreter for all your projects from now on (for all your existing projects you have to set
+the interpreter manually in project settings). Type "Plugins" in the search box and find "".gitignore", install it.
+Click "OK".
 NOTE: If you update version of Python, don't forget to update also the settings in PyCharm.
 
 2. New project
-- You are back on the welcome page. Click on "Create New Project", choose "Location" where you want your projects will
+- You are back on the welcome page. Click on "Create New Project", choose "Location" where you want your projects to
   be saved (PyCharm automatically created a directory "PyCharms Projects" but you can choose your own destination and
-  delete this directory). As you can see "Interpreter" is set already as the one we set before in global settings.
+  delete this directory). As you can see "Interpreter" is set already as the one we set before in default settings.
   Nothing much to do here, so click "Create".
-- For each project we need virtualenv. Go to "File" in top menu, "Default Settings", type "project interpreter" and on
-  the right side, next to the box with your interpreter is sprocket (settings icon), choose "Create VirtualEnv" and then
-  write "Name" and "Location" (has to be same directory as your project), click "OK". Now you see that only pip and
-  setuptools are installed. To install more modules use terminal and "pip install ..." or you can click the plus icon
-  on the bottom, choose package for installation, click "Install" and close window. When you are done, click "Apply" and
-  "OK", it will return you back to your project.
+- For each project we need virtualenv. Go to project settings, type "project interpreter" and on the right side,
+  next to the box with your interpreter is sprocket (settings icon), choose "Create VirtualEnv" and then fill "Name" and
+  "Location" (has to be same directory as your project), click "OK". Now you see that only pip and setuptools are
+  installed. To install more modules use terminal and "pip install ..." or you can click the plus icon on the bottom,
+  choose package for installation, click "Install" and close window.
+- Stay in "Preferences" and search for "Code Style", choose "Python" and on the right side set "Scheme" to "Project",
+  in "Wrapping and Braces" set "Right margin (columns) to 99 or 79 (Pep8: limit all ines to a maximum of 79 (99) chars).
+  Switch to "Imports" and check all (it will sort imports by alphabetical order and split imports from venv and
+  own moduls, put together imports from same modul). On the left side search for "Inspections", choose "Python" and
+  check "Code compability inspection" and choose python versions in the window on the right side (it checks the
+  differences between python versions). Click "OK" to save all changes and return to the code.
+- In top menu find "VSC" and "Enable Version Control Integration", select "Git" > "OK". All files will be red now as
+  none of them is commited. Right click on the name of your project in the project structure on the left,
+  "New" > "Ignore file" > ".gitignore file", leave it empty and click "Generate". If it asks you to add this file in Git,
+  choose "Yes", then the .gitignore file wil appear in grenn (added in Git). Write __pycache__, #.idea and name of
+  your venv in the .gitignore file and click on "Version Control" on the bottom of the IDE window. Click "Reload"
+  (two blue arrows in the circle). From "Unversioned Files" choose "codeStyleSettings.xml" and "Project_Default.xml"
+  (in these two files are saved your IDE configuration, when somebody will fork your code he can set the same
+  configuration to avoid any styling issues) and with right click add them to VCS. You should see them now green in
+  "Default". Uncomment .idea in the .gitignore file and click again "reload" in version control. See? Only 3 files left,
+  the rest is hidden in the .gitignore file.
+- "cmd + k" = commit or you can choose "VCS" > "Commit Changes", check the files on the left side and then on the right
+  side check all under ""Before Commit" (it will correct the code against Pep 8), write a commit message and "Commit".
+  "Version Control" > "Log" to see all commits.
 - Now we need to create a python file to write some code in. In the bar menu choose "File" > "New" > "Python File"
-  and fill the "Name" (without .py) in, click "OK".
-- Type some code in file.
-- On the bottom of the IDE click on "Terminal" and run your code.
+  and fill the "Name" (without .py) in, click "OK" and type some code.
+- In the top menu choose "Run" > "Run..." > "Edit Configuration", on the left side click on "Python" and if there is not
+  any file yet, click on "+", fill "Name",
+  Go to ".gitignore" and comment .idea again, "Version Control" + "Local Changes" > "Unversioned Files" > find the run
+  configuration (first.xml for example) > right click > "Add to VCS" > uncomment .idea, "cmd + k" + "Amend Commit"
+  (it will merge this commit with the previous one) + "Commit".
+-
 - On the left side you see tab "Project" in which you are right now and you see everything what your project contains.
   First is project it self and all its files, then you can click on "External Libraries" and see what interpreter is
   default and what packages are installed.

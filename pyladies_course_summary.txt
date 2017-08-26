@@ -1,0 +1,17 @@
+ * příkazová řádka - whoami, pwd, ls, cp, cd, mkdir, rm
+ * instalace pythonu 3, gitu, textového editoru (IDE)
+ * python 3
+    - if/ elif/ else, for, while, lokální vs. globální proměnné
+    - vyjímky - raise, try/ except, čtení chybových hlášek
+    - importování modulů
+    - testování - pytest- psaní a spouštění jednoduchých testů
+                - pozitivní/ negativní testy
+    - git - init, clone, add, commit, push, pull, fetch, checkout, branch, show, diff, log, merge
+    - soubory - open, with open, read, write, close
+    - seznamy - append, extend, pop, remove, clear, sort, len, count, index, split, shuffle, vnořené seznamy
+    - n-ice - append, enumerate, zip, rozdíl mezi seznamem a n-ticí
+    - slovníky - tvoření, iterace
+    - JSON - loads, dump
+    - webové API - GitHub API- čtení, zápis
+    - pyglet - clock, image, sprite, gl modul, on_draw, on_text
+             - programování her Pong (http://naucse.python.cz/2017/pyladies-brno-jaro-po/projects/pong/) a Androids (http://naucse.python.cz/2017/pyladies-brno-jaro-po/projects/asteroids/)
