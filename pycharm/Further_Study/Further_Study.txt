@@ -1,0 +1,33 @@
+* PyCharm
+** Keyboard Shortcuts for PyCharm: https://www.shortcutfoo.com/app/dojos/pycharm-win/cheatsheet
+
+* Python
+** Great, yet still not that widely used standard library modules
+*** functools: https://docs.python.org/3.5/library/functools.html?highlight=functools#module-functools
+*** itertools: https://docs.python.org/3.5/library/itertools.html
+*** contextlib: https://docs.python.org/3.5/library/contextlib.html
+*** abc: https://docs.python.org/3.4/library/abc.html
+** Python Enhancement Proposals (aka PEPs)
+*** PEP 8: https://www.python.org/dev/peps/pep-0008/
+**** Raymond Hettinger's Beyond PEP 8: https://www.youtube.com/watch?v=wf-BqAjZb8M
+*** PEP 20: https://www.python.org/dev/peps/pep-0020/
+*** PEP 257: https://www.python.org/dev/peps/pep-0257/
+*** PEP 343: https://www.python.org/dev/peps/pep-0343/
+*** PEP 3119: https://www.python.org/dev/peps/pep-3119/
+** Python Design Patterns: https://www.youtube.com/watch?v=Er5K_nR5lDQ
+** Super considered super!: https://www.youtube.com/watch?v=EiOglTERPEo
+** Books
+*** Python Cookbook: https://www.safaribooksonline.com/library/view/python-cookbook-3rd/9781449357337/
+*** Effective Python: 59 Specific Ways to Write Better Python: https://www.safaribooksonline.com/library/view/effective-python-59/9780134034416/
+* PyTest
+** Improving automated testing with py.test: https://www.youtube.com/watch?v=AiThU6JQbE8
+** Advanced uses of py.test Fixtures: https://www.youtube.com/watch?v=IBC_dxr-4ps
+* Testing
+** Unit Testing Best Practices: https://www.youtube.com/watch?v=dJUVNFxrK_4&t=3331s
+** Unit Testing Code Reviewers Best Practices: https://www.youtube.com/watch?v=vFh8cPCOVJw
+** Unit Testing and TDD: Why you should care and how to make it happen: https://www.youtube.com/watch?v=3_UX8Kqb3aU
+** Understanding Test Driven Development: https://www.youtube.com/watch?v=q5Xd1tmIgec
+** Understanding Mock Objects: https://www.youtube.com/watch?v=fAb_OnooCsQ
+** Test-driven Development: Write better code in less time: https://www.youtube.com/watch?v=HhwElTL-mdI
+* Software Design
+** Code Complete: https://www.safaribooksonline.com/library/view/code-complete-second/0735619670/
