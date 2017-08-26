@@ -7,3 +7,5 @@ Project_03 - Keyboard shortcuts
 Project_04 - Debugging
 Project_05 - Refactoring
 Project_06 - Interface description
+
+Further_Study/
