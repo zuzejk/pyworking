@@ -28,7 +28,7 @@ PYCHARM
           with IDE color settings will pop up. This is totally up to you, you can also skip it and set it later.
 
     2. Linux
-      - Written and tested on Ubuntu 16.04 LTS Desktop
+      - Written and tested on Ubuntu 17.04 Desktop, 16.04 LTS Desktop, 14.04 LTS Desktop and 12.04 LTS Desktop
       - Go to https://www.jetbrains.com/toolbox/download/download-thanks.html?platform=linux and download the package
         (let's assume the package name is jetbrains-toolbox-1.4.2492.tar.gz)
       - Move to "Downloads" folder (or where the file has been saved) and extract the package by running `tar -xzf jetbrains-toolbox-1.4.2492.tar.gz`
