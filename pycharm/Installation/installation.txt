@@ -7,6 +7,7 @@ About & Installation
     * couple notes + pics + differences about each option
 
 2. Why to use IDE
+    - PEP8
 
 
 PYCHARM
@@ -21,7 +22,6 @@ PYCHARM
                   more options from all jetbrains apps, you get updates automatically, also you can use several versions of the product which you have in one place
                   same as all your projects, https://chrome.google.com/webstore/detail/jetbrains-toolbox-extensi/offnedcbhjldheanlbojaefbfbllddna google chrome extension for Github
     1. macOS
-
         - Go to https://www.jetbrains.com/toolbox/app/ , click on download .DMG file, then click on the downloaded file and drag the Toolbox icon to Applications, find Jetbrains
           Toolbox in Applications. When you open it, you can skip the registration and then see many different apps. We will go with PyCharm Community Edition, click install and then open.
           It will ask you if you want to import settings from previous versions but as this is yours first Jetbrains app, make sure "Do not import settings" is checked. A small window
